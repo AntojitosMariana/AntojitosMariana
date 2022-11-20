@@ -1,0 +1,214 @@
+
+/*   SECTION 1  */
+
+#sec1 {
+    background-color: rg(206, 0, 0);
+    margin: 100px auto 0 0;
+    justify-content: center;
+    display: flex;
+    height: max-content;
+   
+}
+.div-1 {
+    background-color: rg 82, 46);
+    height: max-content;
+    padding: 10px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.cremu {
+    width: 300px;
+    margin-left: 20px;
+}
+.h2-1 {
+    color: var(--secundary-color);
+    font-size: 30px;
+}
+.h1-1{
+    color: var(--primary-color);
+    font-size: 30px;
+}
+.h1-p {
+    font-size: 22px;
+}
+.div-1__contac {
+    background-color: ed;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contac {
+    color: var(--secundary-color);
+    font-size: 30px;
+}
+
+/*   SECTION 2   */
+
+#sec2 {
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+}
+.h1-2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.div-cremos {
+    display: flex;
+    margin: 30px auto -15px;
+    width: 310px;
+    justify-content: space-between;
+    background-color: ed;
+
+}
+.cremo1 {
+    background-color: #e09ab9;
+    height: max-content;
+    width: 150px;
+    border-radius:75%;
+    overflow: hidden;
+}
+.img-cremo  {
+    width:105px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+.sec1-2 {
+    background-color: gre
+}
+.text2 {
+    background-color: rd;
+    width: 80%;
+    margin: 60px auto;
+}
+.h2-recuerda {
+    color: var(--secundary-color);
+    font-size: 30px;
+}
+.p-recuerda {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/*   SECTION 3  */
+
+#sec3 {
+    background-color: rgba(255, 255, 255, 0.694);
+    height: max-content;
+
+}
+.div-salchi {
+    margin: 0 auto;         
+    width:80%;
+    justify-content: space-between;
+    display: flex;
+    background-color: ed;
+} 
+.img-salchi {
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.h1-3 {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 35px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.imgs-salchi {
+    width: 150px;
+    border-radius: 50px;
+    margin-top: -30px;
+}
+.puedes-salchi {
+    margin-top: -40px;
+    color: var(--secundary-color);
+    font-size: 22px;
+    text-align: center;
+}
+.text-salchi {
+    font-size: 18px;
+    text-align: center;
+
+}
+.div-cremos2 {
+    display: flex;
+    margin: 30px auto -15px;
+    width: 310px;
+    justify-content: space-between;
+    background-color: ed;
+}
+.div-salchi2 {
+    margin: 0 auto;         
+    width:80%;
+    justify-content: space-between;
+    display: flex;
+    background-color: ed;
+}
+.imgs-salchi2 {
+    width:140px;
+    border-radius: 50px;
+    margin-top: -20px;
+}
+.tambien-enc3 {
+    background-color: ed;
+    width: 80%;
+    margin: 40px auto;
+    color: var(--secundary-color);
+    font-size: 25px;
+}
+
+/* SECTION 4  */
+
+#sec4 {
+    background-color: rg(14, 20, 98);
+    height: max-content;
+}
+.div-aceituna {
+    background-color: gren;
+    justify-content: center;
+    width: 50%;
+    margin: 10px auto 0px;
+}
+.aceituna {
+    width: 170px;
+}
+.sec4-2 {
+    background-color: rd;
+    margin-top:-40px ;
+} 
+
+/*  SECTION 5  */
+
+#sec5 {
+    background-color: rb(60, 153, 37);
+    height: max-content;
+}
+.div-contanct1 {
+    background-color: ed;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.mapa {
+    border-radius:25px;
+    box-shadow: 0px 0px 9px black;
+}
+.div-contactanos {
+    background-color: re;
+    width: 70%;
+    margin: 30px auto 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.div-contactanos  ul li a {
+    color: rgb(163, 36, 36);
+    font-size: 35px;
+}

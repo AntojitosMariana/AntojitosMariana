@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat&family=Playfair+Display&family=Poppins&family=Raleway:wght@500&display=swap');
+
+:root {
+    --primary-color: #81425d;
+    --secundary-color: #47a147;
+}
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+a:focus {
+    
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: none;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+section[id] {
+    scroll-margin-top:  100px;
+}
+    /*HEADER*/
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px;
+    background-color: rgb(249, 211, 242);
+    
+}
+.todo {
+    display: none;
+}
+.header_conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+}
+header img {
+    width: 250px;
+}
+nav{
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li:focus {
+    text-decoration: none;
+}
+nav ul li a {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+#btn_menu {
+    display: none;
+    font-size: 40px;
+    color: var(--primary-color);
+}
+#close_menu {
+    display: none;
+    width: 150px ;
+}
+.logo3 {
+    display: none;
+}
+
+/*Responsive Header*/
+
+@media screen and (max-width:1300px) {
+    
+    .header img {
+        width: 400px;
+    }
+    nav {
+        width: 300px;
+        position: absolute;
+        top: 0;
+        right: -300px;
+        background-color: rgb(249, 211, 242);
+        height: 100vh;
+        transition: all 300ms;
+    }
+    nav ul li {
+        margin: 30px 20px 0px 30px;
+        display: flex;
+        align-items: ceter;
+        flex-direction: column;
+    }
+
+    .header_conteiner{
+        width: 90%;
+    }
+    #btn_menu{
+        display: block;
+        transition: all 300ms;
+    }
+    .logo3 {
+        display: block;
+    }
+    #close_menu {
+        transition: all 300ms;
+    }
+}
+
+/*Responsive Header Mobile*/
+
+@media screen and (max-width: 570px) {
+    .header img {
+        width: 240px;
+    }
+    #btn_menu {
+        font-size: 30px;
+    }
+    #close_menu {
+        width: 100px;
+    }
+}
+
+
+/* RESPONSIVE TODOD*/
+@media screen and (max-width:560px) {
+    .todo {
+        display: block;
+    }
+}
